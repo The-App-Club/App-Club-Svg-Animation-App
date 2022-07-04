@@ -1,0 +1,3 @@
+- Reference
+  - [Animate Anything Along an SVG Path](https://tympanus.net/codrops/2022/01/19/animate-anything-along-an-svg-path/?utm_source=pocket_mylist)
+  - [react-icons](https://react-icons.github.io/react-icons/search?q=heart)

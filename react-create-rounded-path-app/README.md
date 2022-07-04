@@ -1,0 +1,5 @@
+- Reference
+  - [make-path-with-border-radius-like-tween-gradiant](https://codesandbox.io/s/make-path-with-border-radius-like-tween-gradiant-d3-dbrln?file=/src/PathWithFluids.tsx)
+  - [svg Gradients](https://developer.mozilla.org/ja/docs/Web/SVG/Tutorial/Gradients)
+  - [tinygradient](https://www.npmjs.com/package/tinygradient)
+  - [stroke color](https://codepen.io/plava/pen/BjavpN)

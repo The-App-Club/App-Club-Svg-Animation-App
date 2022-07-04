@@ -1,0 +1,3 @@
+- Reference
+  - [Snap.path.toCubic](http://snapsvg.io/docs/#Snap.path.toCubic)
+  - [convert-cubic-spline-to-b%C3%A9zier-curve-and-get-control-points](https://math.stackexchange.com/questions/3770662/convert-cubic-spline-to-b%C3%A9zier-curve-and-get-control-points)

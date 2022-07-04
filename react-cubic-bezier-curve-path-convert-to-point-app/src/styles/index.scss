@@ -1,0 +1,13 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code,
+body {
+  font-family: "Inter";
+  font-size: 1.2rem;
+}

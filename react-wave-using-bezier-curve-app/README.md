@@ -1,0 +1,5 @@
+- Reference
+  - [figma polygon](https://www.loom.com/share/b6d4409bfdd74141bb6ee7042f989fd0)
+  - [SVG path commands "s" and "t"](https://stackoverflow.com/questions/15860635/svg-path-commands-s-and-t/15860734#15860734)
+  - [How to draw sine waves with SVG (+JS)?](https://stackoverflow.com/questions/13932704/how-to-draw-sine-waves-with-svg-js/70911566#70911566)
+  - [wavery](https://github.com/up2pixy/wavery)

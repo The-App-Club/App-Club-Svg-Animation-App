@@ -1,0 +1,36 @@
+<svg viewBox="0 0 300 300">
+  <path
+    d="M 44 23 C 69 8 112 9 113 21 S 80 48 105 87 S 37 95 31 81 S 30 29 44 23 Z"
+    className={css`
+      fill: #b9efef;
+      stroke: #b9efef;
+      stroke-linejoin: round;
+      stroke-width: 8px;
+    `}
+  >
+    <animate
+      attributeName="d"
+      repeatCount="indefinite"
+      dur="3s"
+      to="M 44 23 C 69 8 112 9 114 32 S 135 62 102 76 S 43 97 40 81 S 30 29 44 23 Z"
+    />
+    <animate
+      attributeName="d"
+      repeatCount="indefinite"
+      dur="3s"
+      to="M 44 23 C 69 8 88 7 112 38 S 116 81 102 76 S 21 94 30 63 S 35 33 44 23 Z"
+    />
+    <animate
+      attributeName="d"
+      repeatCount="indefinite"
+      dur="3s"
+      to="M 44 23 C 69 8 112 9 114 32 S 135 62 102 76 S 43 97 40 81 S 30 29 44 23 Z"
+    />
+    <animate
+      attributeName="d"
+      repeatCount="indefinite"
+      dur="3s"
+      to="M 44 23 C 69 8 112 9 113 21 S 80 48 105 87 S 37 95 31 81 S 30 29 44 23 Z"
+    />
+  </path>
+</svg>

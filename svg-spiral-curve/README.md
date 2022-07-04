@@ -1,0 +1,3 @@
+- Reference
+  - [demo](https://bl.ocks.org/yanhann10/c6aca84da4b531177419f51a4eced369/3b995ddad60a98f1e32b52302be37ff722af8c0b)
+  - [curves](https://observablehq.com/@d3/curves)

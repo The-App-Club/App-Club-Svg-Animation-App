@@ -1,0 +1,2 @@
+- Reference
+  - [fractional-svg-stars-css](https://samuelkraft.com/blog/fractional-svg-stars-css)

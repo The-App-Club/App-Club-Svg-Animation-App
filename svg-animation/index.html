@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.7/build/dat.gui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stats.js@0.17.0/build/stats.min.js"></script>
+  </head>
+  <body>
+    <div class="workspace">
+      <p>view boxはあらかじめpathDomの幅と高さ以上の値を指定しておく</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 716 400">
+        <defs>
+          <style>
+            .path {
+              fill: none;
+              stroke: #000;
+              stroke-width: 3px;
+            }
+          </style>
+        </defs>
+        <path
+          class="path"
+          d="M 110 30 Q 150 50 200 300 Q 250 350 50 50 Q 350 50 400 300 C 450 350 450 50 500 300 C 350 50 350 350 600 300 A 50 50 0 1 1 350 30"
+        />
+      </svg>
+      <div class="ball"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

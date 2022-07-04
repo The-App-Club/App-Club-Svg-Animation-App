@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\""
+  },
+  "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.4",
+    "chroma-js": "^2.4.2",
+    "culori": "^2.0.3",
+    "d3": "^7.4.4",
+    "gsap": "^3.10.4",
+    "lengthy-svg": "^0.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "tweenrex": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.52.3",
+    "vite": "^2.9.9",
+    "vite-plugin-svgr": "^2.2.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "dev": "budo index.js:bundle.js --live -- -p esmify | garnish",
+    "build": "browserify index.js -t babelify -t brfs | uglifyjs -cm > bundle.js",
+    "serve": "serve",
+    "format": "run-s format:svg format:code",
+    "format:svg": "prettier --config .prettierrc-svg.json --write \"{,!(node_modules|dist|build)/**/}*.svg*\"",
+    "format:code": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\""
+  },
+  "dependencies": {
+    "draw-triangles-2d": "^1.0.0",
+    "extract-svg-path": "^2.1.0",
+    "load-svg": "^1.0.0",
+    "serve": "^13.0.2",
+    "svg-mesh-3d": "^1.1.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "brfs": "^1.4.1",
+    "browserify": "^11.2.0",
+    "budo": "^5.1.0",
+    "esmify": "^2.1.1",
+    "garnish": "^3.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0",
+    "uglify-js": "^2.4.24",
+    "vite": "^2.3.0"
+  }
+}
