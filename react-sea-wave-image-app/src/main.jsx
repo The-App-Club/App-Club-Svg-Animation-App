@@ -7,14 +7,21 @@ import seamap from './assets/sea-map.png';
 
 const App = () => {
   return (
-    <>
+    <div
+      className={css`
+        position: relative;
+        height: 356px;
+        width: 634px;
+        margin: auto;
+      `}
+    >
       <div
         className={css`
           position: absolute;
+          width: 100%;
+          height: 100%;
           top: 0;
           left: 0;
-          height: 356px;
-          width: 634px;
           background-image: url(${sea});
           background-size: cover;
           .water {
@@ -51,7 +58,7 @@ const App = () => {
           />
         </filter>
       </svg>
-    </>
+    </div>
   );
 };
 
