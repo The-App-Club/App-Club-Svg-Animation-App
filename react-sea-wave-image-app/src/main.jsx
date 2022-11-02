@@ -2,16 +2,18 @@ import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import {css} from '@emotion/css';
-import sea from './assets/sea.jpg';
-import seamap from './assets/sea-map.png';
+// import sea from './assets/sea.jpg';
+// import seamap from './assets/sea-map.png';
+import sea from './assets/cozy-home.jpeg';
+import seamap from './assets/cozy-home-map.png';
 
 const App = () => {
   return (
     <div
       className={css`
         position: relative;
-        height: 356px;
-        width: 634px;
+        height: 512px;
+        width: 512px;
         margin: auto;
       `}
     >

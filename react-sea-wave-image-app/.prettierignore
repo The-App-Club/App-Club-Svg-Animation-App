@@ -4,6 +4,7 @@ node_modules
 .stylelintignore
 *jpg
 *png
+*jpeg
 *ico
 .env
 yarn.lock
